@@ -31,7 +31,7 @@ Azure PowerShell module (Az) installed and configured.
 
 Clone the repository:
 
-git clone https://github.com/username/Azure-PowerShell-Scripts.git
+git clone https://github.com/username/Azure-PowerShell.git.
 Import the scripts into your automation workflows or run them individually.
 Follow the usage guidelines and script-specific comments for configuration.
 
