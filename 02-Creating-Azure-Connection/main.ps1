@@ -1,4 +1,4 @@
-. ..\Connection.ps1
+..\Connection.ps1
 try {
     # Retrieving and display resource groups
     $resourceGroups = Get-AzResourceGroup

@@ -6,13 +6,13 @@ To connect to Azure using Azure PowerShell with a Service Principal, follow thes
 
 Install the Azure PowerShell module if not already installed:
 
-`Install-Module -Name Az -AllowClobber -Scope CurrentUser`
+```Install-Module -Name Az -AllowClobber -Scope CurrentUser```
 
 ## Step 2: Create a Service Principal
 
 If you do not already have a Service Principal, you can create one using the Azure CLI:
 
-`az ad sp create-for-rbac --name "YourServicePrincipalName" --role contributor --scopes /subscriptions/{subscription-id}`
+```az ad sp create-for-rbac --name "YourServicePrincipalName" --role contributor --scopes /subscriptions/{subscription-id}```
 
 This command will output the necessary credentials:
 
@@ -30,11 +30,11 @@ Update the Demo_Connection.ps1 script with your specific Service Principal crede
 
 Application (Client) ID
 
-`
+```
 $TenantID = "TenantID"
 $AppID = "Application (Client) ID"
 $AppSecret = "Client Secret (value)"
-`
+```
 
 Rename the updated file to Connection.ps1.
 
